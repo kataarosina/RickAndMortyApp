@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <string name="character">Character</string>
+    <string name="location">Location</string>
+    <string name="episode">Episode</string>
+    <string name="origin">Origin</string>
+    <string name="character_list">Characters list</string>
+    <string name="location_list">Locations list</string>
+    <string name="episode_list">Episodes list</string>
+    <string name="characters">Characters</string>
+    <string name="episodes">Episodes</string>
+    <string name="locations">Locations</string>
+    <string name="error_get_characters">Error recieving the information 1$%s</string>
+    <string name="loading">Loading</string>
+
+    <string name="filters">Filters</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="nothing_selected">Nothing selected</string>
+    <string name="species">Species</string>
+    <string name="status">Status</string>
+    <string name="gender">Gender</string>
+    <string name="type">Type</string>
+    <string name="dimension">Dimension</string>
+    <string name="air_date">Air Date</string>
+    <string name="name_format">name: %1$s</string>
+    <string name="species_format">species: %1$s</string>
+    <string name="type_format">type: %1$s</string>
+    <string name="location_format">location: %1$s</string>
+    <string name="origin_format">origin: %1$s</string>
+    <string name="status_format">status: %1$s</string>
+    <string name="gender_format">gender: %1$s</string>
+    <string name="episode_format">episode: %1$s</string>
+    <string name="air_date_format">air date: %1$s</string>
+    <string name="dimension_format">dimension: %1$s</string>
+    <string name="name">Name</string>
+    <string name="search_location">Search Location</string>
+    <string name="search_episode">Search Episode</string>
+    <string-array name="status">
+        <item>Any status</item>
+        <item>Alive</item>
+        <item>Dead</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Any Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Genderless</item>
+        <item>Unknown</item>
+    </string-array>
+
+</resources>

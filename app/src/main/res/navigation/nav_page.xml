@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_page"
+    app:startDestination="@id/listCharacterFragment">
+
+
+    <fragment
+        android:id="@+id/listCharacterFragment"
+        android:name="com.andersen.rick_and_morty.ui.characterList.ListCharacterFragment"
+        android:label="@string/character_list">
+
+        <action
+            android:id="@+id/action_listCharacterFragment_to_detailCharacterFragment"
+            app:destination="@id/detailCharacterFragment" />
+
+        <action
+            android:id="@+id/action_listCharacterFragment_to_filterCharacterFragment"
+            app:destination="@id/filterCharacterFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/detailCharacterFragment"
+        android:name="com.andersen.rick_and_morty.ui.characterDetail.DetailCharacterFragment"
+        android:label="@string/character">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailCharacterFragment_to_detailEpisodeFragment2"
+            app:destination="@id/detailEpisodeFragment" />
+        <action
+            android:id="@+id/action_detailCharacterFragment_to_detailLocationFragment"
+            app:destination="@id/detailLocationFragment" />
+    </fragment>
+
+
+    <dialog
+        android:id="@+id/filterCharacterFragment"
+        android:name="com.andersen.rick_and_morty.ui.filterFragments.FilterCharacterFragment"
+        android:label="FilterCharacterFragment">
+        <argument
+            android:name="filter"
+            app:argType="com.andersen.rick_and_morty.domain.model.ChatacterFilters" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/listLocationFragment"
+        android:name="com.andersen.rick_and_morty.ui.locationList.ListLocationFragment"
+        android:label="@string/location_list">
+        <action
+            android:id="@+id/action_listLocationFragment_to_detailLocationFragment"
+            app:destination="@id/detailLocationFragment" />
+        <action
+            android:id="@+id/action_listLocationFragment_to_filterLocationFragment"
+            app:destination="@id/filterLocationFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailLocationFragment"
+        android:name="com.andersen.rick_and_morty.ui.locationDetail.DetailLocationFragment"
+        android:label="@string/location">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailLocationFragment_to_detailCharacterFragment"
+            app:destination="@id/detailCharacterFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/listEpisodeFragment"
+        android:name="com.andersen.rick_and_morty.ui.episodeList.ListEpisodeFragment"
+        android:label="@string/episode_list">
+
+        <action
+            android:id="@+id/action_listEpisodeFragment_to_detailEpisodeFragment"
+            app:destination="@id/detailEpisodeFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_listEpisodeFragment_to_filterEpisodeFragment"
+            app:destination="@id/filterEpisodeFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/detailEpisodeFragment"
+        android:name="com.andersen.rick_and_morty.ui.episodeDetail.DetailEpisodeFragment"
+        android:label="@string/episode">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailEpisodeFragment_to_detailCharacterFragment"
+            app:destination="@id/detailCharacterFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/filterLocationFragment"
+        android:name="com.andersen.rick_and_morty.ui.filterFragments.FilterLocationFragment"
+        android:label="FilterLocationFragment">
+        <argument
+            android:name="filter"
+            app:argType="com.andersen.rick_and_morty.domain.model.LocationFilters" />
+    </dialog>
+    <dialog
+        android:id="@+id/filterEpisodeFragment"
+        android:name="com.andersen.rick_and_morty.ui.filterFragments.FilterEpisodeFragment"
+        android:label="FilterEpisodeFragment">
+        <argument
+            android:name="filter"
+            app:argType="com.andersen.rick_and_morty.domain.model.EpisodeFilters" />
+    </dialog>
+
+
+</navigation>

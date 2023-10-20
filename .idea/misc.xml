@@ -1,0 +1,34 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/drawable/splash_background.xml" value="0.2275" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/bottom_sheet_city.xml" value="0.5" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_content.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_detail_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_filter_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_list_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_list_classes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_map_airport.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/fragment_map_city.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/item_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/item_class.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/item_loading.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/layout/spinner_text.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/menu/menu_bottom_nav.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/menu/menu_botton_nav.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Rai/HearthstoneCard/app/src/main/res/menu/toolbar_menu.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

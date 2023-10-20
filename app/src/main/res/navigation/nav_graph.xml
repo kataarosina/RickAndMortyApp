@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/contentFragment"
+        android:name="com.andersen.rick_and_morty.ui.ContentFragment"
+        android:label="ContentFragment"></fragment>
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.andersen.rick_and_morty.ui.SplashScreen"
+        android:label="SplashScreen">
+        <action
+            android:id="@+id/action_splashScreen_to_contentFragment"
+            app:destination="@id/contentFragment"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
